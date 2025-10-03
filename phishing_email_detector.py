@@ -2,7 +2,7 @@
 
 # NAME: Makiko Michelle Yasumi
 # DATE: October 2, 2025
-# BRIEF DESCRIPTION:  This program checks an email subject and detect phising attempt.
+# BRIEF DESCRIPTION: This program checks an email subject and detects phishing attempts.
 
 
 
@@ -16,9 +16,9 @@
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
 def main():
-    detecter()
+    detector()
 
-def detecter():
+def detector():
     subject = input("Enter the email subject line: ")
     print()
     print("SECURITY ASSESSMENT: ")
