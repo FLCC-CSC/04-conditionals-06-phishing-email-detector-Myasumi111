@@ -21,6 +21,7 @@ def main():
 def detector():
     subject = input("Enter the email subject line: ")
     print()
+    print("SECURITY ASSESSMENT:")
 
     if "urgent" in subject.lower():
         print("HIGH RISK: Possible phishing attempt.")
@@ -35,7 +36,6 @@ def detector():
     else:
         print("No phishing indicators detected.")
         
-    print("SECURITY ASSESSMENT:")    
     print("------------------------")
 
     print(f'Analyzed subject: "{subject}"')
