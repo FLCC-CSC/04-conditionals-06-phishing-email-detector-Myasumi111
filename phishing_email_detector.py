@@ -35,6 +35,7 @@ def detector():
     else:
         print("No phishing indicators detected.")
         
+    print("SECURITY ASSESSMENT:")    
     print("------------------------")
 
     print(f'Analyzed subject: "{subject}"')
