@@ -34,7 +34,10 @@ def detector():
         print("LOW RISK: Verify legitimacy with sender.")
     else:
         print("No phishing indicators detected.")
+        
+    print("------------------------")
 
+    print(f'Analyzed subject: "{subject}"')
 
 main()
 
